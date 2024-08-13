@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="bg">
+      <nav class="nav">
+        <svg
+          width="200"
+          height="50"
+          viewBox="0 0 200 50"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <!-- Background with border -->
+          <rect
+            x="0"
+            y="0"
+            width="150"
+            height="50"
+            fill="lightgray"
+            stroke="black"
+            stroke-width="2"
+            rx="10"
+            ry="10"
+          />
+          <!-- Text for MealHub -->
+          <text
+            x="10"
+            y="35"
+            font-size="30"
+            font-family="Arial, sans-serif"
+            font-weight="bold"
+          >
+            <tspan fill="black">Meal</tspan>
+            <tspan x="75" fill="#FFA500">Hub</tspan>
+          </text>
+        </svg>
+        <div class="menu-items">
+          <ul>
+            <li><a href="#">Become a parnter</a></li>
+            <li><a href="#">Login</a></li>
+            <div>
+              <li><a href="#">Create an account</a></li>
+            </div>
+          </ul>
+        </div>
+      </nav>
+      <main class="main">
+        <h1>
+          Welcome to <span class="left">Meal</span
+          ><span class="right">Hub!</span>
+        </h1>
+        <p>
+          Discover the best local and international foods, delivered straight to
+          your door. Sign up today and save money while enjoying the best of the
+          world.
+        </p>
+        <div class="categoryies-container">
+          <div class="food-box">
+            <img src="./images/fast-food.png" alt="fast-food" srcset="" />
+            <span>Foods</span>
+          </div>
+          <div class="sweet-box">
+            <img src="./images/sweets.png" alt="sweets" srcset="" />
+            <span>Desserts</span>
+          </div>
+        </div>
+        <div class="search-box">
+          <input type="text" placeholder="Search food" />
+          <button><img src="./images/search.svg" alt="" srcset="" /></button>
+        </div>
+      </main>
+    </div>
+
+    <script src="./dist/index.js"></script>
+  </body>
+</html>
