@@ -145,3 +145,68 @@ body {
   width: 30px;
   margin-left: 80px;
 }
+
+.container .order-steps_box {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.order-steps_box .text-box {
+  margin: auto;
+}
+.order-steps_box .text-box h2 {
+  color: #4b3519;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.5rem;
+}
+.order-steps_box .text-box p {
+  margin-left: 70px;
+  color: #1d1f36;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.order-steps_box .step-box {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.order-steps_box .step1 {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border: 2px solid #ccc;
+  border-radius: 5%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.order-steps_box .step1 div {
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  border-radius: 50%;
+  background: #ccc;
+  margin-top: -195px;
+  display: flex;
+  color: gray;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+.order-steps_box .step1 img {
+  width: 9rem;
+  margin: 10px auto;
+}
+.order-steps_box .step1 p {
+  margin-top: -10px;
+  color: #1d1f36;
+  font-family: sans-serif;
+}
