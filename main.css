@@ -210,3 +210,21 @@ body {
   color: #1d1f36;
   font-family: sans-serif;
 }
+
+@keyframes scaleUpDown {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.order-steps_box .step1 {
+  transform: scale(1);
+}
+
+.order-steps_box .step1.animate-scale {
+  animation: scaleUpDown 2s ease-in-out infinite;
+}
